@@ -7,10 +7,12 @@
   <body>
     <p>
 <?php
-  $isOk = false;
+/*Variable boolean vaut true*/
+$isOk = true;
+  /*Condition si */
   if($isOk){
     echo 'C\'est ok !!';
-  } else {
+  } else {/*Autre condition si variable vaut faux*/
     echo 'c\'est pas bon !!!';
   }
 ?>
